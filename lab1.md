@@ -1,8 +1,7 @@
 # **Lab 1**
 Tutorial on loggining into ieng6
 
-## **Step 1:**
-Hop into VS Code.
+## **Step 1:** Hop into VS Code.
 
 If you do not have VS Code already on your computer, install the latest version (here is the link: https://code.visualstudio.com/).
 
@@ -11,8 +10,7 @@ You should see something like this:
 
 ---
 
-## **Step 2:**
-Remotely Connecting
+## **Step 2:** Remotely Connecting
 
 (IF you have windows, make sure to install this GIT first (Here is the link: https://gitforwindows.org/))
 
@@ -38,11 +36,11 @@ Now you can select between different terminals
 
 NOW, in the terminal, type 
 
-$ ssh cs15lsp23__@ieng6.ucsd.edu
+`$ ssh cs15lsp23__@ieng6.ucsd.edu`
 
 (replace the __ with your specific letters found in your account)
 
-If this is your first time connecting, a message will pop up asking if you want to continue connecting. Type in "yes".
+If this is your first time connecting, a message will pop up asking if you want to continue connecting. Type in "*yes*".
 
 Then type in your password that you put in for your account.
 
@@ -56,36 +54,27 @@ You have now remotely connected!
 
 ---
 
-## **Step 3:**
-Trying some commands
+## **Step 3:** Trying some commands
 
-First we need to "ssh" (type ssh into the terminal)
+First we need to "*ssh*" (type ssh into the terminal)
 
 Now we can try out different commands
 
 For example, let's try . . .
 
-ls -lat
+`ls -lat`
 
 You should see something like:
 ![Image](lslat.png)
 
 
-ls -a
+`ls -a`
 
 You should see something like:
 ![Image](lsa.png)
 
 try these too! : 
 
-* cd ~
-* cd
-* ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
-
-
-
-
-
-
-
-
+* `cd ~`
+* `cd`
+* `ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username`
