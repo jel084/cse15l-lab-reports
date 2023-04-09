@@ -64,10 +64,13 @@ For example, let's try . . .
 ls -lat
 
 You should see something like:
+![Image](lslat.png)
+
 
 ls -a
 
 You should see something like:
+![Image](lsa.png)
 
 try these too! : 
 
