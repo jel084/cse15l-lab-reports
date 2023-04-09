@@ -44,7 +44,11 @@ If this is your first time connecting, a message will pop up asking if you want 
 
 Then type in your password that you put in for your account.
 
+![Image](password.png)
+
 You will then see this pop up in the terminal
+
+![Image](yay.png)
 
 You have now remotely connected!
 
