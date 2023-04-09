@@ -18,4 +18,19 @@ First install this GIT https://git-scm.com/download/win
 
 We need to set the terminal to git bash (it's what we just installed!)
 
+Go to the terminal tab above and select "New Terminal"
+![Image](terminal.png)
+![Image](terminal_open.png)
+
+Then use Ctrl + Shift + p to open the command palette
+
+After, type "Select Default Profile"
+
+From the options, select "Git Bash"
+
+Lastly, click the + sign in the terminal window
+
+Now you can select between different terminals
+
+
 
