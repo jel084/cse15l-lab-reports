@@ -18,19 +18,37 @@ First install this GIT https://git-scm.com/download/win
 
 We need to set the terminal to git bash (it's what we just installed!)
 
-Go to the terminal tab above and select "New Terminal"
+Go to the terminal tab above and select "*New Terminal*"
 ![Image](terminal.png)
 ![Image](terminal_open.png)
 
 Then use Ctrl + Shift + p to open the command palette
 
-After, type "Select Default Profile"
+After, type "*Select Default Profile*"
 
-From the options, select "Git Bash"
+From the options, select "*Git Bash*"
 
 Lastly, click the + sign in the terminal window
 
 Now you can select between different terminals
+
+![Image](bash.png)
+
+NOW, in the terminal, type 
+
+$ ssh cs15lsp23__@ieng6.ucsd.edu
+
+(replace the __ with your specific letters found in your account)
+
+If this is your first time connecting, a message will pop up asking if you want to continue connecting. Type in "yes".
+
+Then type in your password that you put in for your account.
+
+You will then see this pop up in the terminal
+
+You have now remotely connected!
+
+
 
 
 
