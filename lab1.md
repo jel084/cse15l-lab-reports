@@ -52,6 +52,32 @@ You will then see this pop up in the terminal
 
 You have now remotely connected!
 
+**Step 1:**
+Trying some commands
+
+First we need to "ssh" (type ssh into the terminal)
+
+Now we can try out different commands
+
+For example, let's try . . .
+
+ls -lat
+
+You should see something like:
+
+ls -a
+
+You should see something like:
+
+try these too! : 
+
+cd ~
+cd
+ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
+
+
+
+
 
 
 
