@@ -4,6 +4,7 @@ Tutorial on loggining into ieng6
 ## **Step 1:** Hop into VS Code.
 
 If you do not have VS Code already on your computer, install the latest version (here is the link: https://code.visualstudio.com/).
+There are different versions for different OS (ex macOS, Linux, or Windows)
 
 You should see something like this:
 ![Image](vscode.png)
@@ -75,6 +76,11 @@ You should see something like:
 
 try these too! : 
 
-* `cd ~`
 * `cd`
+   - this means to change directories, which moves the command prompt to a different folder
+* `ls`
+   - this list files in the current directory 
 * `ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username`
+   - this lists the files in abc's directory
+* `pwd`
+   -this prints the working directory, which displays the current working directory
