@@ -83,5 +83,5 @@ try these too! :
 * `ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username`
    - this lists the files in abc's directory
 * `pwd`
-   -this prints the working directory, which displays the current working directory
+   - this prints the working directory, which displays the current working directory
   
