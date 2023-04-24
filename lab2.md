@@ -28,4 +28,24 @@ Tutorial on loggining into ieng6
   
     ![Image](notfail1.png)
     ![Image](notfail2.png)
+4. Before and After Code Change
+   a. Before Code Change
+ ````
+    static void reverseInPlace(int[] arr) {
+      for(int i = 0; i < arr.length/2; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+      }
+    }
+````
+   b. After Code Change
+````
+   static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int firstHalf = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - 1 - i] = firstHalf;
+    }
+ ````
+ dj
+
 
