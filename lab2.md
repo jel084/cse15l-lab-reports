@@ -37,6 +37,7 @@ Tutorial on loggining into ieng6
       }
     }
 ````
+Before the code chnage, the reversed first half of the array is correct in the current array, however, the second half of the current array is the reversed 1st half of the current array.
    b. After Code Change
 ````
    static void reverseInPlace(int[] arr) {
@@ -46,6 +47,8 @@ Tutorial on loggining into ieng6
       arr[arr.length - 1 - i] = firstHalf;
     }
  ````
- dj
+After the code change, I made an integer variable called firstHalf to keep track of the firstHalf of the original array. The first integer of the array would be changed to the last integer of the array, while the last integer in the second half of the current array would be changed to the integer saved as firstHalf. The for loop would interate until the array reaches halfway, changing the integers to be reversed as the numbers changed, moving towards the middle.
 
+## **Part 3** Something I learned.
+Something interesting I learned from week 2 lab that I did not know about before was cloning repositories. I learned that through GitHub Desktop, I can choose to clone a repository from the internet, then I would be able to open it in VScode. We need to fork the repository in order to clone it on my Github account. In addition, if I were to work on my clonned repository, to save my changes, I would need to commit and push them.
 
