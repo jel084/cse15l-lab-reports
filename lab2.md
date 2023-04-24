@@ -25,6 +25,7 @@ Tutorial on loggining into ieng6
   a. running the failure-inducing input
   ![Image](failureinducing.png)
   b. running the input that doesn't induce a failure
+  
     ![Image](notfail1.png)
     ![Image](notfail2.png)
 
