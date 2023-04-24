@@ -23,5 +23,5 @@ Tutorial on loggining into ieng6
 ````
 3. symptoms of running the test
   a. running the failure-inducing input
-  
+  ![Image](failureinducing.png)
   b. running the input that doesn't induce a failure
