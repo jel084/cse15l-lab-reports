@@ -1,5 +1,30 @@
-# **Lab 2**
-Tutorial on loggining into ieng6
+# **Lab Report 2**
+Servers and Bugs
+
+## **Part 1** Web Server
+
+Code 
+````
+import java.io.IOException;
+import java.net.URI;
+
+class Handler implements URLHandler {
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return String.format("");
+        } 
+        else {
+            System.out.println("Path: " + url.getPath());
+            if (url.getPath().contains("/add-message?s=")) {
+                String[] parameters = url.getQuery().split("=");
+                    return String.format("\n" + parameters[1]);
+                }
+        }
+        return "404 Not Found!";
+    }
+}
+````
+
 
 ## **Part 2** Choosing one of the bugs from lab 3.
 
