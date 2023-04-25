@@ -37,8 +37,8 @@ class StringServer {
     }
 }
 ````
- ![Image](Screenshot 2023-04-24 191105.png)
-  ![Image](failureinducing.png)
+ ![Image](therethere.png)
+ ![Image](yourname.png)
 
 ## **Part 2** Choosing one of the bugs from lab 3.
 
