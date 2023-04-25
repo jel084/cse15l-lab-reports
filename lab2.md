@@ -38,7 +38,9 @@ class StringServer {
 }
 ````
  ![Image](therethere.png)
+ In this first screenshot, within the Handler class, the handleRequest method is being called.  An aruguement, the url of type URI, is relevant to the method. There is a string varible called "current" which tracks the strings that are added by incoming request. From this specific request, by adding the url path of ````/add-message?s=hey%there````, the string variable current is updated to ````hey there```` + "\n".
  ![Image](yourname.png)
+ In this second screenshot, within the Handler class, the handleRequest method is being called. An aruguement, the url of type URI, is relevant to the method. There is a string varible called "current" which tracks the strings that are added by incoming request. From this specific request, by adding the url path of ````/add-message?s=whats%your%name````, the string variable current is updated to ````hey there```` + "\n" + ````whats your name```` + "\n".
 
 ## **Part 2** Choosing one of the bugs from lab 3.
 
