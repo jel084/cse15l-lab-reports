@@ -2,6 +2,8 @@
 In this lab report, I will be researching the 'find' command, and present alternative ways to use this command, with two examples each.
 ## **Part 1** `find -name`
 
+`find -name` lets the user find specific files that match what the user inputs by displaying/listing the files. For example, as seen below, are two inputs of `find -name` and the outputs.
+
 ````java
 $ find -name "*.java"
 ./DocSearchServer.java
@@ -9,6 +11,7 @@ $ find -name "*.java"
 ./TestDocSearch.java
 
 ````
+In the example of above, the input is `find -name "*.java"`. In the output is the list of paths that match the ending of `*.java`. The star at the begining is used to display that there is a path before the `.java`. This makes it easier for the user to find paths that match the ending `*.java`.
 
 ````java
 $ find .-name "./technical/biomed"
