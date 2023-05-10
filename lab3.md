@@ -1,8 +1,8 @@
 # **Lab Report 3**
 In this lab report, I will be researching the 'find' command, and present alternative ways to use this command, with two examples each.
 For this lab report, I used two sources:
-- [Linux Man Page](https://man7.org/linux/man-pages/man1/find.1.html)
-- [ChatGPT](https://chat.openai.com/)
+- Linux Man Page (Die.Net) : [Linux Man Page](https://man7.org/linux/man-pages/man1/find.1.html)
+- Chat GPT : [ChatGPT](https://chat.openai.com/)
 
 ## **Part 1** `find -name`
 
