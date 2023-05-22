@@ -28,7 +28,7 @@ I was now remotely connected.
 ![Image](loging.png)
 
 ## **Part 2** Clone your fork of the repository from your Github account
-I typed and pressed: `git clone https://github.com/jel084/lab7.git`,`<enter>`
+I typed and pressed: `git clone git@github.com:jel084/lab7.git`,`<enter>`
   
 ![Image](clone.png)
 ## **Part 3** Run the tests, demonstrating that they fail
