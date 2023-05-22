@@ -34,7 +34,7 @@ I typed and pressed: `git clone https://github.com/jel084/lab7.git`,`<enter>`
 ## **Part 3** Run the tests, demonstrating that they fail
 Keys pressed: `<up>` `<up>` `<up>` `<up>` `<enter>`, `<up>` `<up>` `<up>` `<up>` `<enter>` 
   
-The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 4 up in the search history, so I used up arrows. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples` command was 4 up in the history, so I accessed with arrow keys.
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 4 up in the search history, so I used up arrows. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 4 up in the history, so I accessed with arrow keys.
 
 ![Image](testing.png)
 ## **Part 4** Edit the code file to fix the failing test
@@ -50,7 +50,7 @@ The error is that `index1` is used instead of `index2` in the final loop in `mer
 ## **Part 5** Run the tests, demonstrating that they now succeed
 Keys pressed: `<up>` `<up>` `<up>` `<enter>`, `<up>` `<up>` `<up>` `<enter>` 
   
-The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 3 up in the search history, so I used up arrows. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples` command was 3 up in the history, so I accessed with arrow keys.
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 3 up in the search history, so I used up arrows. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 3 up in the history, so I accessed with arrow keys.
 
 ![Image](passing.png)
 ## **Part 6** Commit and push the resulting change to your Github account
