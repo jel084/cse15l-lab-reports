@@ -2,6 +2,29 @@
 In this lab report, I will be reproducing the tasks from Week 7 lab.
 
 ## **Part 1** Log into ieng6
+I used use `Ctrl` + `Shift` + `p` to open the command palette
+
+After, I type "*Select Default Profile*"
+
+From the options, I selected "*Git Bash*"
+
+Lastly, I clicked the + sign in the terminal window
+
+![Image](bash.png)
+
+NOW, in the terminal, I type 
+
+`$ ssh cs15lsp23_kf@ieng6.ucsd.edu`
+
+Then I typed in my password.
+
+![Image](password.png)
+
+You will then see this pop up in the terminal
+
+![Image](yay.png)
+
+You have now remotely connected!
 ![Image](loging.png)
 
 ## **Part 2** Clone your fork of the repository from your Github account
