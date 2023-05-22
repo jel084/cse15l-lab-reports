@@ -26,7 +26,9 @@ The error is that index1 is used instead of index2 in the final loop in merge. T
 
 
 ## **Part 5** Run the tests, demonstrating that they now succeed
-
+Keys pressed: < up > < up >< up >< enter >, < up >< up >< up >< enter > 
+  
+The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java command was 3 up in the search history, so I used up arrows. java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ... command was 3 up in the history, so I accessed with arrow keys.
 ## **Part 6** Commit and push the resulting change to your Github account
 
 < git > < push > < origin > < main >
