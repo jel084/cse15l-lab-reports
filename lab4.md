@@ -43,7 +43,8 @@ To edit from the command line, I typed `vim ListExamples.java` to access the fil
 The error is that `index1` is used instead of `index2` in the final loop in `merge`. To fix my errors I entered:
 
 `/index`,`<enter>`, `<shift>`, `<e>`, `<r>`, `<2>`, `:wq`, `<enter>`
-`/index` help me find the `index1` I needed to fix at the bottom of the files. `<shift>`, `<e>` placed my cursor to hover over the number. `<r>`, `<2>` replaced the `1` with a `2`. `:wq`, `<enter>` saved the changed I made in the file.
+
+`/index` helped me find the `index1` I needed to fix at the bottom of the files. `<shift>`, `<e>` placed my cursor to hover over the number. `<r>`, `<2>` replaced the `1` with a `2`. `:wq`, `<enter>` saved the changed I made in the file.
 ![Image](fixed.png)
 
 ## **Part 5** Run the tests, demonstrating that they now succeed
@@ -55,7 +56,9 @@ The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command 
 ## **Part 6** Commit and push the resulting change to your Github account
 I typed:
 `git add .`
-`git commit`
+
+`git commit -m "yay"` - the commit message I chose was *yay*
+
 `git push`
 ![Image](bruh.png)
 
