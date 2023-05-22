@@ -53,5 +53,7 @@ The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command 
 
 ![Image](passing.png)
 ## **Part 6** Commit and push the resulting change to your Github account
-
-< git > < push > < origin > < main >
+I typed:
+`git add .`
+`git commit`
+`git push`
