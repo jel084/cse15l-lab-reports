@@ -32,7 +32,7 @@ I typed and pressed: `git clone https://github.com/jel084/lab7.git`,`<enter>`
   
 ![Image](clone.png)
 ## **Part 3** Run the tests, demonstrating that they fail
-Keys pressed: `<up>` `<up>` `<up>``<up>``<enter>`, `<up>``<up>``<up>``<up>``<enter>` 
+Keys pressed: `<up>` `<up>` `<up>` `<up>` `<enter>`, `<up>` `<up>` `<up>` `<up>` `<enter>` 
   
 The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 4 up in the search history, so I used up arrows. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples` command was 4 up in the history, so I accessed with arrow keys.
 
