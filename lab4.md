@@ -22,6 +22,8 @@ The error is that index1 is used instead of index2 in the final loop in merge. T
 
 /index, < enter > < shift > < e > < r > < 2 >, :wq, < enter >
 
+![Image](fixed.png)
+
 
 ## **Part 5** Run the tests, demonstrating that they now succeed
 
