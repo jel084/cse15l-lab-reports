@@ -29,3 +29,4 @@ The error is that index1 is used instead of index2 in the final loop in merge. T
 
 ## **Part 6** Commit and push the resulting change to your Github account
 
+< git > < push > < origin > < main >
