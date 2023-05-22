@@ -2,6 +2,7 @@
 In this lab report, I will be reproducing the tasks from Week 7 lab.
 
 ## **Part 1** Log into ieng6
+![Image](loging.png)
 
 ## **Part 2** Clone your fork of the repository from your Github account
 
