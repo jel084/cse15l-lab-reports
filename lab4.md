@@ -20,21 +20,21 @@ Then I typed in my password.
 
 ![Image](password.png)
 
-You will then see this pop up in the terminal
+I saw this in the terminal. 
 
 ![Image](yay.png)
 
-You have now remotely connected!
+I was now remotely connected.
 ![Image](loging.png)
 
 ## **Part 2** Clone your fork of the repository from your Github account
-Keys pressed: < up >< up >< up >< up >< up >< up >< enter >
+I typed and pressed: `git clone https://github.com/jel084/lab7.git`,`<enter>`
   
 ![Image](clone.png)
 ## **Part 3** Run the tests, demonstrating that they fail
 Keys pressed: `<up>` `<up>` `<up>``<up>``<enter>`, `<up>``<up>``<up>``<up>``<enter>` 
   
-The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 4 up in the search history, so I used up arrows. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ...` command was 4 up in the history, so I accessed with arrow keys.
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 4 up in the search history, so I used up arrows. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples` command was 4 up in the history, so I accessed with arrow keys.
 
 ![Image](testing.png)
 ## **Part 4** Edit the code file to fix the failing test
@@ -46,11 +46,10 @@ The error is that `index1` is used instead of `index2` in the final loop in `mer
 
 ![Image](fixed.png)
 
-
 ## **Part 5** Run the tests, demonstrating that they now succeed
-Keys pressed: < up > < up >< up >< enter >, < up >< up >< up >< enter > 
+Keys pressed: `<up>``<up>``<up>``<enter>`, `<up>``<up>``<up>``<enter>` 
   
-The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java command was 3 up in the search history, so I used up arrows. java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ... command was 3 up in the history, so I accessed with arrow keys.
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 3 up in the search history, so I used up arrows. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples` command was 3 up in the history, so I accessed with arrow keys.
 
 ![Image](passing.png)
 ## **Part 6** Commit and push the resulting change to your Github account
