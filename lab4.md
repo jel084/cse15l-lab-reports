@@ -14,7 +14,7 @@ Lastly, I clicked the + sign in the terminal window
 
 NOW, in the terminal, I type 
 
-`$ ssh cs15lsp23_kf@ieng6.ucsd.edu`
+`$ ssh cs15lsp23kf@ieng6.ucsd.edu`
 
 Then I typed in my password.
 
@@ -39,11 +39,11 @@ The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command 
 
 ![Image](testing.png)
 ## **Part 4** Edit the code file to fix the failing test
-To edit from the command line, I typed vim ListExamples.java to access the file.
+To edit from the command line, I typed `vim ListExamples.java` to access the file.
 
-The error is that index1 is used instead of index2 in the final loop in merge. To fix my errors I entered:
+The error is that `index1` is used instead of `index2` in the final loop in `merge`. To fix my errors I entered:
 
-/index, < enter > < shift > < e > < r > < 2 >, :wq, < enter >
+`/index`,`<enter>`, `<shift>`, `<e>`, `<r>`, `<2>`, `:wq`, `<enter>`
 
 ![Image](fixed.png)
 
