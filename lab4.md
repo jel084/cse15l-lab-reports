@@ -70,6 +70,8 @@ I typed:
 
 `git push`
 
+![Image](bfg.jpg)
+
 `<enter>`
 
 
