@@ -62,5 +62,5 @@ I typed:
 `<enter>`
 `git push`
 `<enter>`
-![Image](bruh.png)
+![Image](IMG_20230602_233904_938.jpg)
 
