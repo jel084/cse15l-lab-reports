@@ -57,7 +57,7 @@ The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command 
 I typed:
 
 `git add .`
-
+![Image](Screenshot 2023-06-02 234413.png)
 `<enter>`
 
 `git commit -m changed`
