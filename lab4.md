@@ -57,10 +57,10 @@ The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command 
 I typed:
 
 `git add .`
-
-`git commit -m "yay"` - the commit message I chose was *yay*
-
+`<enter>`
+`git commit -m changed`
+`<enter>`
 `git push`
-
+`<enter>`
 ![Image](bruh.png)
 
