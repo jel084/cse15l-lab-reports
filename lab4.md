@@ -70,7 +70,7 @@ I typed:
 
 `git push`
 
-![Image](last.png)
+![Image](lastone.png)
 
 `<enter>`
 
