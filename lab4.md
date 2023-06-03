@@ -57,10 +57,16 @@ The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command 
 I typed:
 
 `git add .`
+
 `<enter>`
+
 `git commit -m changed`
+
 `<enter>`
+
 `git push`
+
 `<enter>`
+
 ![Image](IMG_20230602_233904_938.jpg)
 
