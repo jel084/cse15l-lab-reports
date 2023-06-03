@@ -64,11 +64,12 @@ I typed:
 
 `git commit -m changed`
 
+![Image](IMG_20230602_233904_938.jpg)
+
 `<enter>`
 
 `git push`
 
 `<enter>`
 
-![Image](IMG_20230602_233904_938.jpg)
 
