@@ -51,6 +51,22 @@ javac ../anotherOne/test.java
 java -cp ../anotherOne test
 ```
 
+To trigger the bug, I ran
+
+```
+./work.sh
+```
+
+![Image](bug.png)
+
+To fix the bug, you have to enter the lines
+
+```
+cd one
+```
+
+This is because the student is not able to run the bash script because they are in the wrong directory. Instead of being in the one reletive path, the student was in the lab5 directory. To fix this bug, the student needed to change their directory to `one`, which is where the bash script `work.sh` is located.
+
 ## **Part 2** Reflection
 From the second half of this quarter, I have learned a lot, but one thing I found that was pretty useful was that one time in lab where we learned about creating a SSH Keys for ieng6. For the forst half of this quarter, we have been needing to input a password, when this whole time, we could have learned how to create a SSH key and skipping the whole process. I think I would rememebr that for the rest of my time here, but that was a pretty cool lesson. Another something we learned was when we had the tutorial about vim and how to edit from the command line, and learning different tricks and shortcuts. Who knew these button clciks would save us so much time; and it was fun just learning abut them and racing against a clock.
 
