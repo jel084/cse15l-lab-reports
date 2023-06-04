@@ -19,6 +19,7 @@ I am trying to run my bash script called `work.sh`. In `work.sh` it should run t
 I made sure I spelled my bash script command correctly. I made sure that within my bash script, I inputted the correct java file to run. I'm not too sure why it cannot find the file when I typed everything out correctly. Can you help me with this bug?
 
 **TA Response:**
+
 Have you tried using the command `pwd`. This shows the directory you are in. What does this say when you input this into the command line? Which directory are you currently in? The command `ls` is also helpful. Try those commands out and report what you see.
 
 **Student Reponse:**
