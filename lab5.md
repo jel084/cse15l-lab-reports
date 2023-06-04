@@ -2,7 +2,7 @@
 In this lab report, I will be creating a debugging scenario and reflecting on this past quarter.
 
 ## **Part 1** Debugging Scenario
-Student's Symptom: 
+**Student's Symptom:** 
 
 *What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?*
 
@@ -10,8 +10,17 @@ I am on my laptop in the terminal. I have a lab5 directory with two folders with
 
 *Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.*
 
-I am tryong to run my bash script called `work.sh`. In `work.sh` it should run the java file I have located in `anotherOne`, however, when I type `./work.sh` into the terminal, I get the error `bash: ./work.sh: No such file or directory`. I provided a picture below of my error.
-![Image](bash.png)
+I am trying to run my bash script called `work.sh`. In `work.sh` it should run the java file I have located in `anotherOne`, however, when I type `./work.sh` into the terminal, I get the error `bash: ./work.sh: No such file or directory`. I want to see my java file run and to print out the result `My name is J9, what's yours?`.I provided a picture below of my error.
+
+![Image](bug.png)
+
+*Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.*
+
+I made sure I spelled my bash script command correctly. I made sure that within my bash script, I inputted the correct java file to run. I'm not too sure why it cannot find the file when I typed everything out correctly. Can you help me with this bug?
+
+**TA Response:**
+Have you tried using the command `pwd`. This shows the directory you are in. What does this say when you input this into the command line? Which directory are you currently in? The command `ls` is also helpful. Try those commands out and report what you see.
+
 
 
 ## **Part 2** Reflection
