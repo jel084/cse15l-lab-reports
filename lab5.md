@@ -6,7 +6,7 @@ In this lab report, I will be creating a debugging scenario and reflecting on th
 
 *What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?*
 
-I am on my laptop in the terminal. I have a lab5 directory with two folders within (`one` and `anotherOne`). `one` has a bash script called `work.sh` and `anotherOne` has a java file called `test.java`.
+I am on my laptop in the terminal. I have a `lab5` directory with two folders within (`one` and `anotherOne`). `one` has a bash script called `work.sh` and `anotherOne` has a java file called `test.java`.
 
 *Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.*
 
