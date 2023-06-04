@@ -37,10 +37,12 @@ Here is the directory structure I needed. I created a folder called `lab5` and h
 Here is the contents within `test.java`
 
 ```json
+{
 public class test {
     public static void main(String[] args) {
         System.out.println("My name is J9, what's yours?");
     }
+}
 }
 ```
 Here is the contents within `work.sh`:
