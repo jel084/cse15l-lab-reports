@@ -33,6 +33,7 @@ I tried out the commands `ls` and `pwd` and saw that I was not in the correct di
 **SET UP:**
 
 Here is the directory structure I needed. I created a folder called `lab5` and had two other folders within `anotherOne` and `one`. I had a bash script named `work.sh` in `one` and a java file named `test.java` in `anotherOne`.
+
 ![Image](stuff.png)
 
 Here is the contents within `test.java`
